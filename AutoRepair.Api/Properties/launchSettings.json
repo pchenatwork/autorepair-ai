@@ -1,24 +1,14 @@
 {
   "profiles": {
-    "http": {
+    "Localhost (Https)": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "scalar",
+      "launchUrl": "scalar/v1",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5121"
-    },
-    "https": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "scalar",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7262;http://localhost:5121"
+      "applicationUrl": "https://localhost:5001"
     },
     "Container (Dockerfile)": {
       "commandName": "Docker",

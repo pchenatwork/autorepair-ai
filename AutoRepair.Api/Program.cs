@@ -84,7 +84,8 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();   // /scalar/v1 — interactive UI
 }
 
-app.UseHttpsRedirection();
+// Since HTTPS only, no HTTP profile, we don't need this redirect
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
